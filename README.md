@@ -1,7 +1,7 @@
 
 # yt-downloader
 
-A simple CLI tool made with python using pytube.
+A simple yt downloader made with python using pytube
 
 
 ## Features
