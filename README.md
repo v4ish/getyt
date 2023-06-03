@@ -1,7 +1,7 @@
 
-# Project Title
+# yt-downloader
 
-A brief description of what this project does and who it's for
+A simple CLI tool made with python using pytube.
 
 
 ## Features
