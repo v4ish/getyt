@@ -22,6 +22,6 @@ Install requirements
     
 ## Usage/Examples
 
-```javascript
+```python
 python3 vid.py https://www.youtube.com/watch?v=XYlI5iyWP2U
 ```
