@@ -4,14 +4,15 @@ A simple yt downloader made with python.
 
 ## Features
 
-- Audio Downloader
-- Video Downloader
+- [x] Audio Downloader
 
-## Todo
+- [x] Video Downloader
 
-- [x] Discord Rich presence
+- [ ] Discord Rich presence
 
 - [ ] ffmpeg merging
+
+## Todo
 
 ## Installation
 
