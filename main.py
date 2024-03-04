@@ -53,6 +53,20 @@ else:
      print("Wrong input Exiting...")
      exit
 
+#TODO: Merge audio and video using ffmpeg
+
+'''
+qty - Audio
+_________________
+[140] mp4 128kbps
+[251] webm 160kbps
+
+qty - Video
+_________________
+[18]  360p 30fps
+[22]  720p 30fps 
+[137] 1080p 30fps no audio
+'''
 
 
 

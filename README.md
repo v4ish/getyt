@@ -1,8 +1,6 @@
-
 # yt-downloader
 
 A simple yt downloader made with python using pytube
-
 
 ## Features
 
@@ -11,7 +9,6 @@ A simple yt downloader made with python using pytube
 - Discord Rich presence (Coming soon...)
 - Cross platform
 
-
 ## Installation
 
 Install requirements
@@ -19,9 +16,9 @@ Install requirements
 ```bash
   pip install -r requirements.txt
 ```
-    
+
 ## Usage/Examples
 
 ```python
-python3 vid.py https://www.youtube.com/watch?v=XYlI5iyWP2U
+python3 main.py
 ```
