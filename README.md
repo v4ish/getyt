@@ -1,6 +1,6 @@
-# yt-downloader
+# getyt
 
-A simple yt downloader made with python using pytube
+A simple yt downloader made with python.
 
 ## Features
 
@@ -20,5 +20,5 @@ Install requirements
 ## Usage/Examples
 
 ```python
-python3 main.py
+python3 getyt.py
 ```
