@@ -6,8 +6,12 @@ A simple yt downloader made with python.
 
 - Audio Downloader
 - Video Downloader
-- Discord Rich presence (Coming soon...)
-- Cross platform
+
+## Todo
+
+- [x] Discord Rich presence
+
+- [ ] ffmpeg merging
 
 ## Installation
 
