@@ -1,8 +1,6 @@
-from sys import argv
 import time
 import pyfiglet
 from pytube import YouTube
-import ffmpeg
 
 #ASCI ART
 ASCII_art_1 = pyfiglet.figlet_format("getyt")
@@ -16,6 +14,7 @@ print(" ")
 
 choice = int(input("Choose an option: "))
 print(" ")
+
 link = (input("Paste the link here: "))
 yt = YouTube(link)
 
@@ -59,26 +58,14 @@ def video1080p():
     qty2 = 251 #Audio
     header()
     yd = yt.streams.get_by_itag(qty)
-#Creates folder
-    
     yd.download("./Video/1080p/" + yt.title)
     time.sleep(3)
     yd = yt.streams.get_by_itag(qty2)
     yd.download("./Video/1080p/" + yt.title)
     print("_______________________________")
-    print("Merge audio manually using ffmpeg or restart & use option 99")
+    print("Use ffmpegy.py to Merge audio and video together")
     print("Exiting...")
     exit
-'''
-#ffmpeg merging
-
-def ffmpegy():      
-    input_video = ffmpeg.input('./Video/1080p/v1.webm')
-
-    input_audio = ffmpeg.input('./Video/1080p/a1.webm')
-
-    ffmpeg.concat(input_video, input_audio, v=1, a=1).output('./Video/1080p/Merged/Merged.mp4').run()
-'''
 
 #If else input
 if choice == 1:
@@ -87,10 +74,7 @@ elif choice == 2:
         video()
 elif choice == 3:
         video1080p()
-        '''
-elif choice == 99:
-        ffmpegy()
-        '''
+
 else:
      print("Wrong input Exiting...")
 
