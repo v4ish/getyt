@@ -3,3 +3,4 @@ pyfiglet
 sys
 time
 ffmpeg
+pypresence

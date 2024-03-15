@@ -8,7 +8,7 @@ A simple yt downloader made with python.
 
 - [x] Video Downloader
 
-- [ ] Discord Rich presence
+- [x] Discord Rich presence
 
 - [ ] ffmpeg merging
 

@@ -1,6 +1,20 @@
 import time
 import pyfiglet
 from pytube import YouTube
+from pypresence import Presence
+
+
+client_id = '1217755350795550740'
+RPC = Presence(client_id)
+RPC.connect()
+
+RPC.update(
+            details="Scrapping youtube",
+            state="Downloading something...",
+            large_image="logo",
+            large_text="getyt",
+            ) 
+
 
 #ASCI ART
 ASCII_art_1 = pyfiglet.figlet_format("getyt")
@@ -79,7 +93,6 @@ else:
      print("Wrong input Exiting...")
 
 #TODO: Merge audio and video using ffmpeg
-#TODO: Add Discord rich presence support
 
 '''
 qty - Audio
